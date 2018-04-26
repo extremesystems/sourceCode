@@ -1,12 +1,13 @@
 iCoin integration/staging tree
 ================================
 
+Source Code version zero created by CaptainHook
+
 http://www.icoinproject.com
 
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2013 Litecoin Developers
 Copyright (c) 2013 iCoin Developers (CaptainHook)
-Copyright (c) 2015- iCoinProject Developers 
 
 What is iCoin?
 ----------------
@@ -25,7 +26,7 @@ the iCoin client sofware, see http://www.icoinproject.com.
 License
 -------
 
-iCoin is released under the terms of the MIT license. See `COPYING` for more
+icoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -63,6 +64,7 @@ make -f makefile.unix USE_UPNP=
 cp iCoind /usr/bin/iCoind
 
 chmod 600 ./iCoin.conf
+
 
 
 Testing

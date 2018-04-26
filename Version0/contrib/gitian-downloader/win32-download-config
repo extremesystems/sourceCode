@@ -1,0 +1,9 @@
+--- 
+name: icoin
+urls:
+- http://icoin.world/icoin-latest-win32-gitian.zip
+rss:
+- url: http://sourceforge.net/api/file/index/project-id/NEEDED/mtime/desc/limit/100/rss
+  xpath: //item/link/text()
+  pattern: icoin-\d+.\d+.\d+-win32-gitian.zip
+signers:
